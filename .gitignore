@@ -22,3 +22,24 @@ gradle-app.setting
 
 
 /bin/
+
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+.externalToolBuilders
+*.launch
+.cproject
+.buildpath
+
