@@ -23,6 +23,9 @@ public class TeamsApplication {
         SpringApplication.run(TeamsApplication.class, args);
     }
 
+    @Autowired(required = false)
+    DatabaseLoader databaseLoader;
+
     @Autowired
     TeammateRepository teammateRepository;
 
